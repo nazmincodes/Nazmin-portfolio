@@ -16,3 +16,10 @@ if(!del){del=true;return setTimeout(t,1400)}
 if(j>0){j--;return setTimeout(t,45)}
 del=false;i=(i+1)%w.length;setTimeout(t,300)})();
 })();
+
+// Mobile menu
+(function(){var b=document.getElementById('menuBtn'),n=document.getElementById('mainnav');if(!b||!n)return;
+function set(o){n.classList.toggle('open',o);b.setAttribute('aria-expanded',o)}
+b.addEventListener('click',function(){set(!n.classList.contains('open'))});
+n.addEventListener('click',function(e){if(e.target.tagName==='A')set(false)});
+})();
