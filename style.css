@@ -194,3 +194,15 @@ section h2::after{content:"";display:block;width:56px;height:3px;border-radius:3
 .projects.feat{grid-template-columns:1fr}
 .projects.feat .proj{padding:32px}
 .projects.feat .proj p{font-size:1.05rem;max-width:62ch}
+
+/* ---- Project screenshot ---- */
+.shot{margin:0;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--line)}
+.shot img{display:block;width:100%;height:auto}
+
+/* ---- Compact project card (image + text side by side) ---- */
+.projects.feat .proj{display:grid;grid-template-columns:1.1fr 1fr;gap:32px;align-items:center;padding:26px}
+.projects.feat .shot img{aspect-ratio:16/10;object-fit:cover;object-position:50% 0}
+.proj .info{display:flex;flex-direction:column;gap:20px}
+.proj .info p{margin:0 0 16px}
+@media (max-width:820px){.projects.feat .proj{grid-template-columns:1fr;gap:20px;padding:20px}.projects.feat .proj p{font-size:1rem}}
+@media (max-width:820px){.projects.feat .shot img{aspect-ratio:3/2}}

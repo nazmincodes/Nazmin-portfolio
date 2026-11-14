@@ -23,3 +23,20 @@ function set(o){n.classList.toggle('open',o);b.setAttribute('aria-expanded',o)}
 b.addEventListener('click',function(){set(!n.classList.contains('open'))});
 n.addEventListener('click',function(e){if(e.target.tagName==='A')set(false)});
 })();
+
+// ---- Contact form (sends to your email through Web3Forms) ----
+var WEB3FORMS_KEY='50056a23-6124-4f6e-b382-2782cd551540';
+(function(){var f=document.getElementById('cform'),n=document.getElementById('fnote');if(!f)return;
+var btn=f.querySelector('button[type="submit"]'),label=btn.textContent;
+f.addEventListener('submit',function(e){e.preventDefault();
+var ok=true;f.querySelectorAll('input[type="text"],input[type="email"],textarea').forEach(function(x){var v=x.checkValidity()&&x.value.trim();x.classList.toggle('bad',!v);if(!v)ok=false});
+if(!ok){n.textContent='Please fill in your name, a valid email and a message.';return}
+var d=new FormData(f),name=d.get('name').trim(),email=d.get('email').trim(),msg=d.get('message').trim();
+btn.disabled=true;btn.textContent='Sending...';n.textContent='';
+fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},
+body:JSON.stringify({access_key:WEB3FORMS_KEY,subject:'Portfolio message from '+name,from_name:'Portfolio website',name:name,email:email,message:msg})})
+.then(function(r){return r.json()})
+.then(function(j){if(j.success){n.textContent='Thank you! Your message has been sent.';f.reset()}else{throw new Error(j.message||'fail')}})
+.catch(function(){n.textContent='Could not send from here. Please email me directly at msnazminakter690@gmail.com.'})
+.finally(function(){btn.disabled=false;btn.textContent=label})});
+})();
