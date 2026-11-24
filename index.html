@@ -1,103 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Nazmin Akter – Aspiring Full-Stack Developer</title>
-<meta name="description" content="Portfolio of Nazmin Akter, CSE student and aspiring full-stack developer building with React, JavaScript and Next.js.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Nazmin Akter – Aspiring Full-Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Nazmin Akter, CSE student and aspiring full-stack developer building with React, JavaScript and Next.js.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="progress" id="progress" aria-hidden="true"></div>
-<header class="nav"><div class="wrap">
- <a class="brand" href="#top">Nazmin Akter</a>
- <nav aria-label="Main"><ul id="mainnav"><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li></ul></nav>
- <div class="actions">
-  <a class="btn primary sm" href="https://docs.google.com/document/d/1S7tYBZ6GAJW2JOTH7iLI-20YOXN-JRSI/edit?usp=sharing" target="_blank" rel="noopener">Resume</a>
-  <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mainnav"><span></span><span></span><span></span></button>
- </div>
-</div></header>
+    <div class="progress" id="progress" aria-hidden="true"></div>
+    <header class="nav">
+        <div class="wrap">
+            <a class="brand" href="#top">Nazmin Akter</a>
+            <nav aria-label="Main">
+                <ul id="mainnav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="actions">
+                <a class="btn primary sm"
+                    href="https://docs.google.com/document/d/1S7tYBZ6GAJW2JOTH7iLI-20YOXN-JRSI/edit?usp=sharing"
+                    target="_blank" rel="noopener">Resume</a>
+                <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false"
+                    aria-controls="mainnav"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
 
-<main id="top">
-<section class="hero" style="border:0;padding-bottom:88px"><div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div><div class="wrap">
- <div>
-  <h1>Nazmin Akter</h1>
-  <p class="role">Aspiring frontend and full-stack developer working with React.js and Next.js.</p>
-  <p class="typed">I build with <span id="typed"></span><i class="caret" aria-hidden="true"></i></p>
-  <p class="lead">Building modern, responsive and scalable web applications using React, Next.js, TypeScript, Node.js and MongoDB.</p>
-  <div class="cta">
-   <a class="btn primary" href="https://docs.google.com/document/d/1S7tYBZ6GAJW2JOTH7iLI-20YOXN-JRSI/edit?usp=sharing" target="_blank" rel="noopener">View resume</a>
-   <a class="btn ghost" href="https://drive.google.com/uc?export=download&id=1S7tYBZ6GAJW2JOTH7iLI-20YOXN-JRSI" target="_blank" rel="noopener">Download PDF</a>
-  </div>
-  <div class="social">
-   <a href="https://github.com/nazmincodes" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5Z"/></svg>GitHub</a>
-   <a href="https://www.linkedin.com/in/nazmin-akter-dev/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2ZM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2ZM7.1 20.5H3.6V9h3.5v11.5Z"/></svg>LinkedIn</a>
-  </div>
- </div>
- <div class="photo"><img src="assets/photo.jpg" alt="Portrait of Nazmin Akter" width="640" height="640"><span class="chip c1" aria-hidden="true">React</span><span class="chip c2" aria-hidden="true">Next.js</span><span class="chip c3" aria-hidden="true">TypeScript</span><span class="chip c4" aria-hidden="true">MongoDB</span></div>
-</div></section>
+    <main id="top">
+        <section class="hero" style="border:0;padding-bottom:88px">
+            <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+            <div class="wrap">
+                <div>
+                    <h1>Nazmin Akter</h1>
+                    <p class="role">Aspiring frontend and full-stack developer working with React.js and Next.js.</p>
+                    <p class="typed">I build with <span id="typed"></span><i class="caret" aria-hidden="true"></i></p>
+                    <p class="lead">Building modern, responsive and scalable web applications using React, Next.js,
+                        TypeScript, Node.js and MongoDB.</p>
+                    <div class="cta">
+                        <a class="btn primary"
+                            href="https://docs.google.com/document/d/1S7tYBZ6GAJW2JOTH7iLI-20YOXN-JRSI/edit?usp=sharing"
+                            target="_blank" rel="noopener">View resume</a>
+                        <a class="btn ghost"
+                            href="https://drive.google.com/uc?export=download&id=1S7tYBZ6GAJW2JOTH7iLI-20YOXN-JRSI"
+                            target="_blank" rel="noopener">Download PDF</a>
+                    </div>
+                    <div class="social">
+                        <a href="https://github.com/nazmincodes" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"
+                                aria-hidden="true">
+                                <path
+                                    d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5Z" />
+                            </svg>GitHub</a>
+                        <a href="https://www.linkedin.com/in/nazmin-akter-dev/" target="_blank" rel="noopener"><svg
+                                viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2ZM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2ZM7.1 20.5H3.6V9h3.5v11.5Z" />
+                            </svg>LinkedIn</a>
+                    </div>
+                </div>
+                <div class="photo"><img src="assets/photo.jpg" alt="Portrait of Nazmin Akter" width="640" height="640">
+                    <span class="chip c2" aria-hidden="true">Next.js</span>
+                    <span class="chip c3" aria-hidden="true">TypeScript</span>
+                    <span class="chip c1" aria-hidden="true">react</span>
+                  <span class="chip c4"aria-hidden="true">Express.js</span>
 
-<section id="about"><div class="wrap">
- <h2 class="reveal">About me</h2>
- <p class="sub">A self-driven learner who prefers building to watching tutorials.</p>
- <div class="about">
-  <div>
-   <p>I am an aspiring Full Stack Web Developer from Bangladesh with a passion for building modern web applications and continuously learning new technologies.</p>
-   <p>My primary focus is creating fast, responsive and user-friendly websites using React, Next.js, TypeScript, Node.js and MongoDB.</p>
-   <p>I am also interested in AI-Assisted Coding and AI Mindset Engineering to improve development productivity and problem-solving skills.</p>
-  </div>
-  <ul class="facts reveal">
-   <li><b>Currently learning</b><span>React.js, TypeScript, Next.js, Node.js, Express.js, MongoDB</span></li>
-   <li><b>Exploring next</b><span>AI-Assisted Coding, AI Mindset Engineering</span></li>
-   <li><b>Goal</b><span>Full-stack developer building clean, scalable web apps</span></li>
-  </ul>
- </div></section>
+                </div>
+            </div>
+        </section>
 
-<section id="skills"><div class="wrap">
- <h2>Skills</h2>
- <p class="sub">What I use, what each one is for, and what I’m still learning.</p>
- <div class="sk"><div class="card reveal" style="--i:0"><div class="top"><h3>React.js</h3><span class="lvl">Building with</span></div><p>Component-based UI building: reusable components, props, state and hooks for interactive, maintainable interfaces.</p></div><div class="card reveal" style="--i:1"><div class="top"><h3>Next.js</h3><span class="lvl">Building with</span></div><p>React framework for routing, server rendering and full-stack apps with fast, SEO-friendly pages.</p></div><div class="card reveal" style="--i:2"><div class="top"><h3>JavaScript</h3><span class="lvl">Building with</span></div><p>Core language for DOM work, async code and API calls, the base for everything I build on the frontend.</p></div><div class="card reveal" style="--i:3"><div class="top"><h3>HTML & CSS</h3><span class="lvl">Building with</span></div><p>Semantic, accessible markup and responsive layouts with Flexbox and Grid that work on any screen.</p></div><div class="card reveal" style="--i:4"><div class="top"><h3>Tailwind CSS</h3><span class="lvl">Building with</span></div><p>Utility-first styling for consistent, responsive designs without leaving the markup.</p></div><div class="card reveal" style="--i:5"><div class="top"><h3>MongoDB</h3><span class="lvl">Building with</span></div><p>Document database for storing app data, used together with REST APIs in full-stack projects.</p></div><div class="card reveal" style="--i:6"><div class="top"><h3>TypeScript</h3><span class="lvl learn">Learning</span></div><p>Adding static types to JavaScript to catch bugs early and make larger codebases easier to maintain.</p></div><div class="card reveal" style="--i:7"><div class="top"><h3>Node.js & Express</h3><span class="lvl learn">Learning</span></div><p>Building the server side: routes, middleware and REST APIs that connect to a database.</p></div><div class="card reveal" style="--i:8"><div class="top"><h3>Git & Figma</h3><span class="lvl">Building with</span></div><p>Version control for clean project history, and Figma to turn designs into working interfaces.</p></div></div>
-</div></section>
+        <section id="about">
+            <div class="wrap">
+                <h2 class="reveal">About me</h2>
+                <p class="sub">A self-driven learner who prefers building to watching tutorials.</p>
+                <div class="about">
+                    <div>
+                        <p>I am an aspiring Full Stack Web Developer from Bangladesh with a passion for building modern
+                            web applications and continuously learning new technologies.</p>
+                        <p>My primary focus is creating fast, responsive and user-friendly websites using React,
+                            Next.js, TypeScript, Node.js and MongoDB.</p>
+                        <p>I am also interested in AI-Assisted Coding and AI Mindset Engineering to improve development
+                            productivity and problem-solving skills.</p>
+                    </div>
+                    <ul class="facts reveal">
+                        <li><b>Exploring next</b><span>AI-Assisted Coding, AI Mindset Engineering</span></li>
+                        <li><b>Goal</b><span>Full-stack developer building clean, scalable web apps</span></li>
+                    </ul>
+                </div>
+        </section>
 
-<section id="projects"><div class="wrap">
- <h2 class="reveal">Projects</h2>
- <p class="sub reveal" style="--i:1">A full-stack project I built with Next.js, Express and MongoDB.</p>
- <div class="projects feat"><article class="card proj reveal" style="--i:0"><figure class="shot"><img src="assets/shomaj-setu.jpg" alt="Shomaj Setu home page with a gallery of volunteer activity photos" width="1400" height="674" loading="lazy"></figure><div class="info"><div><h3>Social Development Events Platform</h3><p>A platform where users create, join and track community service events. Built as a separate Next.js client and Express server.</p><ul class="tags"><li>Next.js</li><li>Better Auth</li><li>Express</li><li>MongoDB</li></ul></div><div class="row"><a class="btn primary sm" href="https://somaj-shetu-server-2o2a.vercel.app/" target="_blank" rel="noopener">Live site</a><a class="btn ghost sm" href="https://github.com/nazmincodes/somaj-shetu-client" target="_blank" rel="noopener">Client code</a><a class="btn ghost sm" href="https://github.com/nazmincodes/somaj-shetu-server" target="_blank" rel="noopener">Server code</a></div></div></article></div>
- <div class="more reveal"><a class="btn primary" href="https://github.com/nazmincodes?tab=repositories" target="_blank" rel="noopener">See all repositories</a></div>
-</div></section>
 
-<section id="contact" class="contact"><div class="wrap">
- <div class="contact-card reveal">
-  <div class="contact-info">
-   <h2>Get in touch</h2>
-   <p>I’m open to full-stack opportunities, internships and collaborations. Send a message and I’ll reply by email.</p>
-   <ul class="clist">
-    <li><b>Email</b><a href="mailto:msnazminakter690@gmail.com">msnazminakter690@gmail.com</a></li>
-    <li><b>Phone</b><a href="tel:+8801782728885">01782728885</a></li>
-    <li><b>Address</b><span>Dhaka, Bangladesh</span></li>
-   </ul>
-   <div class="social">
-   <a href="https://github.com/nazmincodes" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5Z"/></svg>GitHub</a>
-   <a href="https://www.linkedin.com/in/nazmin-akter-dev/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2ZM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2ZM7.1 20.5H3.6V9h3.5v11.5Z"/></svg>LinkedIn</a>
-  <a href="https://docs.google.com/document/d/1S7tYBZ6GAJW2JOTH7iLI-20YOXN-JRSI/edit?usp=sharing" target="_blank" rel="noopener">Resume</a></div>
-  </div>
-  <form class="cform" id="cform" novalidate>
-   <div class="two">
-    <input type="text" name="name" placeholder="Your name" aria-label="Your name" autocomplete="name" required>
-    <input type="email" name="email" placeholder="Your email" aria-label="Your email" autocomplete="email" required>
-   </div>
-   <textarea name="message" placeholder="How can I help?" aria-label="Your message" rows="6" required></textarea>
-   <button class="btn primary" type="submit">Send message</button>
-   <p class="fnote" id="fnote" role="status"></p>
-  </form>
- </div>
-</div></section>
-</main>
 
-<script src="script.js"></script>
-<footer><div class="wrap"><span>© 2026 Nazmin Akter</span><span>Dhaka, Bangladesh</span></div></footer>
+        <section id="skills">
+            <div class="wrap">
+                <h2 class="reveal">Technical Skills</h2>
+                <p class="sub reveal">
+                    Technologies, tools, and frameworks I use to build modern web applications.
+                </p>
+
+                <div class="sk">
+
+                    <div class="card reveal" style="--i:0">
+                        <div class="top">
+                            <h3>HTML5</h3>
+                            <span class="lvl">Frontend</span>
+                        </div>
+                        <p>Semantic HTML, accessible structure, and well-organized web page layouts.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:1">
+                        <div class="top">
+                            <h3>CSS3</h3>
+                            <span class="lvl">Frontend</span>
+                        </div>
+                        <p>Responsive design, Flexbox, Grid, animations, transitions, and modern styling.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:2">
+                        <div class="top">
+                            <h3>JavaScript</h3>
+                            <span class="lvl">Frontend</span>
+                        </div>
+                        <p>ES6+, DOM manipulation, asynchronous JavaScript, array methods, and API integration.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:3">
+                        <div class="top">
+                            <h3>TypeScript</h3>
+                            <span class="lvl">Frontend & Backend</span>
+                        </div>
+                        <p>Static typing, interfaces, types, and type-safe application development.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:4">
+                        <div class="top">
+                            <h3>React.js</h3>
+                            <span class="lvl">Frontend</span>
+                        </div>
+                        <p>Reusable components, props, state, hooks, context API, and interactive UI development.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:5">
+                        <div class="top">
+                            <h3>Next.js</h3>
+                            <span class="lvl">Full-Stack</span>
+                        </div>
+                        <p>App Router, dynamic routing, server and client components, layouts, and full-stack
+                            applications.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:6">
+                        <div class="top">
+                            <h3>Tailwind CSS</h3>
+                            <span class="lvl">Styling</span>
+                        </div>
+                        <p>Utility-first styling and responsive user interface development.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:7">
+                        <div class="top">
+                            <h3>DaisyUI</h3>
+                            <span class="lvl">UI Framework</span>
+                        </div>
+                        <p>Pre-built Tailwind CSS components for creating consistent user interfaces.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:8">
+                        <div class="top">
+                            <h3>shadcn/ui</h3>
+                            <span class="lvl">UI Components</span>
+                        </div>
+                        <p>Customizable and reusable UI components for modern React applications.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:9">
+                        <div class="top">
+                            <h3>Node.js</h3>
+                            <span class="lvl">Backend</span>
+                        </div>
+                        <p>Server-side JavaScript development and backend application logic.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:10">
+                        <div class="top">
+                            <h3>Express.js</h3>
+                            <span class="lvl">Backend</span>
+                        </div>
+                        <p>REST API development, routing, middleware, and backend architecture.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:11">
+                        <div class="top">
+                            <h3>MongoDB</h3>
+                            <span class="lvl">Database</span>
+                        </div>
+                        <p>NoSQL database, collections, documents, and application data management.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:12">
+                        <div class="top">
+                            <h3>Better Auth</h3>
+                            <span class="lvl">Authentication</span>
+                        </div>
+                        <p>Authentication integration and user login functionality in web applications.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:13">
+                        <div class="top">
+                            <h3>OAuth</h3>
+                            <span class="lvl">Authentication</span>
+                        </div>
+                        <p>Social authentication integration and third-party login workflows.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:14">
+                        <div class="top">
+                            <h3>Stripe</h3>
+                            <span class="lvl">Payment</span>
+                        </div>
+                        <p>Payment gateway integration and subscription-based payment functionality.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:15">
+                        <div class="top">
+                            <h3>REST APIs</h3>
+                            <span class="lvl">Backend</span>
+                        </div>
+                        <p>API integration, HTTP requests, CRUD operations, and frontend-backend communication.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:16">
+                        <div class="top">
+                            <h3>Git & GitHub</h3>
+                            <span class="lvl">Tools</span>
+                        </div>
+                        <p>Version control, repository management, commits, branches, and collaboration.</p>
+                    </div>
+
+                    <div class="card reveal" style="--i:17">
+                        <div class="top">
+                            <h3>Figma</h3>
+                            <span class="lvl">Design</span>
+                        </div>
+                        <p>UI design exploration and converting design ideas into web interfaces.</p>
+                    </div>
+
+                    <!-- <div class="card reveal" style="--i:18">
+                        <div class="top">
+                            <h3>VS Code & npm</h3>
+                            <span class="lvl">Development Tools</span>
+                        </div>
+                        <p>Code editing, terminal workflows, package management, and development setup.</p>
+                    </div> -->
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="projects">
+            <div class="wrap">
+                <h2 class="reveal">Projects</h2>
+                <p class="sub reveal" style="--i:1">Full-stack web projects I have built.</p>
+                <div class="projects feat">
+                    <article class="card proj reveal" style="--i:0">
+                        <figure class="shot shot-pz">
+                            <img src="assets/pizzahub.jpg"
+                                alt="PizzaHub home page with the headline Happiness Is Just a Slice Away and a pizza photo"
+                                width="1400" height="677" loading="lazy">
+                        </figure>
+                        <div class="info">
+                            <div>
+                                <h3>PizzaHub</h3>
+                                <p>A full-stack pizza website where customers browse pizzas from local shops and
+                                    vendors can join to sell their own. Built with a Next.js client and an Express
+                                    server, with Google sign-in and separate customer and vendor roles.</p>
+                                <ul class="tags">
+                                    <li>Next.js</li>
+                                    <li>TypeScript</li>
+                                    <li>Express</li>
+                                    <li>Better Auth</li>
+                                    <li>Google Login</li>
+                                    <li>mongodb</li>
+                                    <li>stripe</li>
+                                </ul>
+                            </div>
+                            <div class="row"><a class="btn primary sm" href="https://pizzahub-client-sandy.vercel.app/"
+                                    target="_blank" rel="noopener">Live site</a><a class="btn ghost sm"
+                                    href="https://github.com/nazmincodes/PIZZA-GALLERY" target="_blank"
+                                    rel="noopener">Client code</a><a class="btn ghost sm"
+                                    href="https://github.com/nazmincodes/PIZZA-GALLERY-server" target="_blank"
+                                    rel="noopener">Server code</a></div>
+                        </div>
+                    </article>
+                    <article class="card proj reveal" style="--i:1">
+                        <figure class="shot"><img src="assets/shomaj-setu.jpg"
+                                alt="Shomaj Setu home page with a gallery of volunteer activity photos" width="1400"
+                                height="674" loading="lazy"></figure>
+                        <div class="info">
+                            <div>
+                                <h3>Social Development Events Platform</h3>
+                                <p>A platform where users create, join and track community service events. Built as
+                                    a separate Next.js client and Express server.</p>
+                                <ul class="tags">
+                                    <li>Next.js</li>
+                                    <li>Better Auth</li>
+                                    <li>Express</li>
+                                    <li>MongoDB</li>
+                                </ul>
+                            </div>
+                            <div class="row"><a class="btn primary sm"
+                                    href="https://somaj-shetu-server-2o2a.vercel.app/" target="_blank"
+                                    rel="noopener">Live site</a><a class="btn ghost sm"
+                                    href="https://github.com/nazmincodes/somaj-shetu-client" target="_blank"
+                                    rel="noopener">Client code</a><a class="btn ghost sm"
+                                    href="https://github.com/nazmincodes/somaj-shetu-server" target="_blank"
+                                    rel="noopener">Server code</a></div>
+                        </div>
+                    </article>
+                </div>
+                <div class="more reveal"><a class="btn primary" href="https://github.com/nazmincodes?tab=repositories"
+                        target="_blank" rel="noopener">See
+                        all repositories</a></div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="wrap">
+                <div class="contact-card reveal">
+                    <div class="contact-info">
+                        <h2>Get in touch</h2>
+                        <p>I’m open to full-stack opportunities, internships and collaborations. Send a message and
+                            I’ll reply by email.</p>
+                        <ul class="clist">
+                            <li><b>Email</b><a href="mailto:msnazminakter690@gmail.com">msnazminakter690@gmail.com</a>
+                            </li>
+                            <li><b>Phone</b><a href="tel:+8801782728885">01782728885</a></li>
+                            <li><b>Address</b><span>Dhaka, Bangladesh</span></li>
+                        </ul>
+                        <div class="social">
+                            <a href="https://github.com/nazmincodes" target="_blank" rel="noopener"><svg
+                                    viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M12 .5A11.5 11.5 0 0 0 8.4 22.9c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5Z" />
+                                </svg>GitHub</a>
+                            <a href="https://www.linkedin.com/in/nazmin-akter-dev/" target="_blank" rel="noopener"><svg
+                                    viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2ZM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2ZM7.1 20.5H3.6V9h3.5v11.5Z" />
+                                </svg>LinkedIn</a>
+                            <a href="https://docs.google.com/document/d/1S7tYBZ6GAJW2JOTH7iLI-20YOXN-JRSI/edit?usp=sharing"
+                                target="_blank" rel="noopener">Resume</a>
+                        </div>
+                    </div>
+                    <form class="cform" id="cform" novalidate>
+                        <div class="two">
+                            <input type="text" name="name" placeholder="Your name" aria-label="Your name"
+                                autocomplete="name" required>
+                            <input type="email" name="email" placeholder="Your email" aria-label="Your email"
+                                autocomplete="email" required>
+                        </div>
+                        <textarea name="message" placeholder="How can I help?" aria-label="Your message" rows="6"
+                            required></textarea>
+                        <button class="btn primary" type="submit">Send message</button>
+                        <p class="fnote" id="fnote" role="status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <footer>
+        <div class="wrap"><span>© 2026 Nazmin Akter</span><span>Dhaka, Bangladesh</span></div>
+    </footer>
 </body>
+
 </html>
